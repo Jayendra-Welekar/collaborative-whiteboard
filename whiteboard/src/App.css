@@ -1,0 +1,270 @@
+@import "../node_modules/@flaticon/flaticon-uicons/css/all/all";
+
+button {
+    background-color: white;
+    border: 0px solid rgba(0, 0, 0, 0.405);
+    border-radius: 4px;
+    z-index: 2;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+#canvas {
+    background-color: rgb(233, 233, 233);
+}
+
+
+button:hover {
+    scale: 1.2;
+    cursor: pointer;
+    border: 1px;
+    background-color: rgba(128, 128, 128, 0.19);
+}
+
+.addShapes {
+    display: flex;
+    align-items: center;
+    justify-content: centre;
+    gap: 10px;
+    position: absolute;
+    top: 10vh;
+    left: 50%;
+    z-index: 10;
+    transform: translateX(-50%);
+    border-radius: 1vh;
+    padding: 1vh;
+    box-shadow: 2px 2px 5px grey;
+    background-color: white;
+}
+
+.actionSelector{
+position:absolute;
+ top:50%;
+  left: 1vh;
+  transform: translateY(-50%);
+  border-radius: 1vh;
+  box-shadow: 2px 2px 5px grey;
+  z-index: 10;
+  background-color: white;
+
+}
+
+.actionSelector div {
+    margin: 1vh;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1vh;
+    border-radius: 1vh;
+    box-sizing: content-box;
+    transition: all 0.2s ease;
+}
+
+.actionSelector div:hover {
+    cursor: pointer;
+    background-color: rgba(128, 128, 128, 0.238);
+    scale: 1.1;
+}
+
+.shareBtn{
+    margin: 1vh;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1vh;
+    border-radius: 1vh;
+    box-sizing: content-box;
+    transition: all 0.2s ease;
+}
+
+.shareBtn:hover {
+    cursor: pointer;
+    background-color: rgba(128, 128, 128, 0.238);
+    scale: 1.1;
+}
+
+button i {
+    height: 90%;
+    word-wrap: 90%;
+    z-index: 1;
+    pointer-events: none;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2px 1vw;
+    z-index: 11;
+    width: 100%;
+    background-color: white;
+}
+
+.part1 {
+    display: flex;
+    gap: 2vh;
+}
+
+.part2{
+    display: flex;
+    gap: 2vh;
+}
+
+.part2btn {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.763);
+    padding: 1vh;
+}
+
+.part2btn:hover{
+    color: rgb(78, 77, 77);
+    scale: 1;
+}
+
+.controlBtn {
+    display: flex;
+    gap: 2vh;
+
+}
+
+.homeBtn{
+    transition: all 0.2s ease;
+    background-color:transparent;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1vh;
+
+}
+
+.homeBtn:hover{
+    cursor: pointer;
+    background-color: rgba(128, 128, 128, 0.197);
+
+}
+
+.controlBtn div{
+    transition: all 0.2s ease;
+    background-color:transparent;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1vh;
+}
+.controlBtn div:hover{
+    cursor: pointer;
+    background-color: rgba(128, 128, 128, 0.197);
+}
+
+
+.changeSizeAndColor{
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    z-index: 10;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.strokeValue{
+    font-size: 3vh;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+.strokeWidth{
+    position: absolute;
+    width: 20px;
+    margin: 0;
+    background-color: white !important;
+    display: flex;
+    flex-direction: column;
+}
+.strokeValue:hover{
+    scale: 1 !important;
+    background-color: white !important;
+}
+.strokeWidth:hover{
+    scale: 1 !important;
+    background-color: white !important;
+}
+
+.parentLogin {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.loginForm{
+    width: 30%;
+    border: 1px solid grey;
+    border-radius: 2vh;
+    padding: 2vh;
+}
+
+.loginForm div {
+    margin: 10px;
+}
+
+.signBtn{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+}
+
+@media screen and (max-width: 800px) {
+    .loginForm{
+        width: 80%;
+    }
+}
+
+.roomDetails{
+    width: 30%;
+    padding: 2vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 4vh;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.availableWhiteboards{
+    width: 40%;
+    margin: auto;
+    max-height: 70%;
+    overflow: auto;
+}
+
+li{
+    margin-bottom: 2vh;
+}
+
+li:hover{
+    cursor: pointer;
+}
+
+.parentAvailable{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cursorElement{
+    font-size: 1vh;
+    
+}
