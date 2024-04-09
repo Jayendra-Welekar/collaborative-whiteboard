@@ -3,7 +3,6 @@
 
 
 #Some screenshots of the app:  
-![image](https://github.com/Jayendra-Welekar/collaborative-whiteboard/assets/114202520/15cd0a2e-0051-42d3-8877-59502a6b8485)
 
 ![image](https://github.com/Jayendra-Welekar/collaborative-whiteboard/assets/114202520/bec2881d-661c-40a6-9619-a0205d0a5ee1)
 
